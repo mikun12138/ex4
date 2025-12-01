@@ -19,7 +19,9 @@ const router = createBrowserRouter([
     path: "/config",
     element: <Test />
   }
-])
+], {
+  basename: "/ex4/"
+})
 
 
 createRoot(document.getElementById('root')!).render(
